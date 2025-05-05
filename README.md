@@ -198,7 +198,7 @@ python evaluate_checkpoints.py --data_path data/ --vocab_path data/vocabulary.pk
 ## 推論
 新しい画像に対してキャプションを生成:
 ```bash
-python infer.py --model_path checkpoints/checkpoint_epoch_15.pth.tar --image_path data/Images/00000-allegory.jpg --vocab_path data/vocabulary.pkl --visualize
+python infer.py --model_path checkpoints/checkpoint_epoch_20.pth.tar --image_path data/Images/00000-allegory.jpg --vocab_path data/vocabulary.pkl --visualize
 ```
 `--visualize`オプションを使用すると、アテンション重みの可視化が行われます。
 
@@ -282,6 +282,18 @@ art_captioning_project/
 2. エンコーダによる特徴抽出
 3. ビームサーチによるキャプション生成
 4. オプションでアテンション重みの可視化
+
+## ドキュメント
+
+詳細な文書は`docs`ディレクトリにあります。以下のトピックに分かれています：
+
+| トピック | 英語版 | 日本語版 |
+|---------|-------|---------|
+| クイックスタート | [Quick Start Guide](docs/quick_start_en.md) | [クイックスタートガイド](docs/quick_start_ja.md) |
+| モデルアーキテクチャ | [Model Architecture](docs/model_architecture_en.md) | [モデルアーキテクチャ](docs/model_architecture_ja.md) |
+| トレーニングプロセス | [Training Process](docs/training_process_en.md) | [トレーニングプロセス](docs/training_process_ja.md) |
+| 推論プロセス | [Inference Process](docs/reasoning_process_en.md) | [推論プロセス](docs/reasoning_process_ja.md) |
+| キャプション生成例 | [Caption Generation Examples](docs/caption_generation_en.md) | [キャプション生成例](docs/caption_generation_ja.md) |
 
 ## 謝辞
 - SemArtデータセットを提供してくださったNoa Garcia氏に感謝いたします。
