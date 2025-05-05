@@ -3,7 +3,7 @@
 このドキュメントでは、学習済みモデルによって生成されたキャプションの例を示します。
 
 ## 例1：肖像画
-![肖像画の例](caption_example_1_portrait.png)
+![肖像画の例](caption_example_1_Portrait.png)
 
 **生成されたキャプション:**  
 _"portrait of a young man with beard wearing dark clothes against neutral background"_
@@ -12,7 +12,7 @@ _"portrait of a young man with beard wearing dark clothes against neutral backgr
 _"Portrait of Michael, depicting a young nobleman with a beard and dark attire, painted with delicate brushwork characteristic of the Northern Renaissance style."_
 
 ## 例2：風景画
-![風景画の例](caption_example_2_landscape.png)
+![風景画の例](caption_example_2_Landscape.png)
 
 **生成されたキャプション:**  
 _"landscape with trees and water reflecting the sky with soft light filtering through leaves"_
@@ -21,7 +21,7 @@ _"landscape with trees and water reflecting the sky with soft light filtering th
 _"Forest scene with a tranquil pond reflecting trees and sky, painted in the Barbizon School style emphasizing natural light and atmospheric conditions."_
 
 ## 例3：静物画
-![静物画の例](caption_example_3_still_life.png)
+![静物画の例](caption_example_3_Still_Life.png)
 
 **生成されたキャプション:**  
 _"still life arrangement with flowers, books and household objects on wooden table"_
